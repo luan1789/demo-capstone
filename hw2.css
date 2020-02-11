@@ -1,0 +1,91 @@
+header{   
+    background-image:url(../images/flywheel.jpg);
+    height: 200px;
+    width: 100%;
+    background-repeat: no-repeat ;
+    background-size: cover;
+  
+}
+header h1{
+    padding-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+ nav a{
+    width: 154px;
+    height: 30px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 7px;
+    background-color: hsla(0, 100%, 100%, 0.3);
+    color: black;
+    font-size: 20px;
+    margin-right: 50px;
+    transition: 0.4s;
+}
+ a:hover{
+    background-color: white;
+}
+nav {
+    text-align: center;
+}
+main {
+ display: flex;
+ width: 100%;
+}
+aside {
+ width: 20%;
+ height: auto;
+ background-color:  #4c680b;
+ 
+}
+aside img{
+    width: 200px;
+    height: 110px;
+    margin: 40px 30px;
+    display: block;
+    border:solid black;
+}
+section {
+    width: 70%;
+    font-size: 20px;
+}
+table{
+    margin-left:100px ;
+     width: 770px;
+}
+table tr:first-child{
+    background-color: rgb(124, 170, 59);
+    color: white;
+}
+tr{
+     height: 55px;
+     background-color: rgb(203, 240, 195);  
+     opacity: 0.6;  
+   
+}
+tr:hover{
+    opacity: 0.8;
+    font-size: larger;
+}
+
+tr td:first-of-type{
+    padding-left: 5px;
+    text-align: left;
+}
+tr th:first-of-type{
+    padding: 15px;
+    text-align: left;
+}
+th{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: solid greenyellow;
+}
+
+td{
+   
+    text-align: center;
+}

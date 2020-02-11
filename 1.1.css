@@ -1,0 +1,26 @@
+img{
+    display: none;
+}
+header{
+    display: block;
+    margin-top: 50px;
+    background-color:	#D3D3D3;
+}
+ a{
+    color: #000000	;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+h2{
+    text-transform: uppercase;
+    color: 		#000080;
+    font-weight: bold;
+}
+section.right{
+ margin-top: 20px;
+  display: block;
+  background-color: gray;
+}
